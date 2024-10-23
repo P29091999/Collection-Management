@@ -5,7 +5,7 @@ import { CronJob } from 'cron';
 import * as csv from 'csv-parser';
 import * as fs from 'fs';
 import { Model } from 'mongoose';
-import { Case, CaseDocument } from '../modules/cases/entities/case.entity';
+import { Case, CaseDocument } from '../entities/case.entity';
 @Injectable()
 export class DataImportService {
     private readonly logger = new Logger(DataImportService.name);
