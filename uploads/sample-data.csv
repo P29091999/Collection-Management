@@ -1,0 +1,3 @@
+bankName,propertyName,city,borrowerName,createdAt
+Bank A,property One,New York,abc,2021-01-01
+Bank B,property 2,India,test,2021-01-01
